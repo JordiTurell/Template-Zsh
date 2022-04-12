@@ -2,7 +2,7 @@ if [[ -z $ZSH_THEME_LOGO_PREFIX ]]; then
 	ZSH_THEME_LOGO_PREFIX=''
 fi
 
-RPROMPT="%{$fg[yellow]%}  [%D{%f/%m/%y}|%@]"
+RPROMPT="%{$fg[yellow]%}  [%D{%f/%m/%y} ⌚%@]"
 
 function prompt_char {
     echo '○'
